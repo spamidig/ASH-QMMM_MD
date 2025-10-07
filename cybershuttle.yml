@@ -1,0 +1,29 @@
+project:
+  name: "Amber_demo"
+  description: "CLGiPL_Methyl"
+  homepage: https://github.com/cyber-shuttle/Amber_demo
+  authors:
+    -  spamidig@gatech.edu
+  tags:
+    - ASH
+    - QMMM
+
+
+workspace:
+  resources:
+    min_cpu: 4
+    min_gpu: 0
+    min_mem: 4096
+    gpu_mem: 1024
+  model_collection: []
+  data_collection: []
+
+additional_dependencies:
+  modules: []
+  conda:
+    - python=3.10
+    - pip
+    - numpy
+    - tqdm
+    - rich
+  pip: []
